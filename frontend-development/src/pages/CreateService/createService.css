@@ -1,0 +1,63 @@
+.banner h2 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.banner {
+  width: 100%;
+  height: 260px;
+  border-radius: 18px;
+  background-image: url("https://media.istockphoto.com/id/1300459022/photo/natural-organic-spa-cosmetic-products-set-with-eucalyptus-leaves-top-view-herbal-skincare.jpg?b=1&s=170667a&w=0&k=20&c=6_z9QmxfFDMvwLdM41BUHswrHLOFkLtIkewZ9aBkFZk= ");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* transition: 0.3s ease; */
+  /* position: relative; */
+  color: #fff;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 20px 16px;
+  text-decoration: none;
+  display: inline-block;
+  background: #537f71;
+  color: #fff;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 50px;
+  transition: 0.4s linear;
+}
+
+.create-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin: 50px auto;
+  padding: 30px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+
+.create-form input[type="text"],
+.create-form input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.create-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #537f71;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}

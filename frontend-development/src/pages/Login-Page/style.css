@@ -1,0 +1,161 @@
+.login-page-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: block;
+  background-color: #537f71;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(83, 127, 113, 0.86),
+    #537f71
+  );
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  margin: auto 5%;
+}
+
+.login-container {
+  /* position: absolute; */
+  display: flex;
+  overflow: hidden;
+  width: 1000px;
+  height: 600px;
+  background-color: #fff;
+  border-radius: 20px;
+  /* top: 50%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  z-index: 1;
+}
+
+.login-content {
+  flex-basis: 50%;
+}
+
+.login-image {
+  flex-basis: 50%;
+  margin: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.login-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.login-content {
+  padding: 40px 60px;
+}
+
+.login-logo {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.login-title {
+  margin-bottom: 40px;
+}
+
+.login-title h2 {
+  font-size: 3rem;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.login-title p {
+  color: #444;
+  text-align: start;
+}
+
+.login-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.login-inputs input {
+  padding: 15px 5px;
+  width: 100%;
+  font-size: 14px;
+  border: none;
+  border-bottom: 2px solid #999;
+  letter-spacing: 1px;
+  outline: none;
+}
+
+.login-inputs input:focus {
+  border-color: #0e4166;
+}
+
+.login-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.login-buttons button {
+  padding: 12px 0;
+  background-color: #537f71;
+  font-size: 18px;
+  color: #fff;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border: none;
+}
+
+.login-buttons button:last-child {
+  background-color: transparent;
+  border: 1px solid #537f71;
+  color: #444;
+  transition: 0.3s;
+}
+
+.login-buttons button:last-child:hover {
+  background-color: #537f71;
+  color: #fff;
+}
+
+.login-container form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* .login-content {
+} */
+
+@media (max-width: 768px) {
+  .login-image {
+    display: none;
+    flex-basis: 0;
+  }
+
+  .login-content {
+    flex-basis: 100%;
+  }
+
+  .login-container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 480px) {
+  .login-container {
+    font-size: 12px;
+  }
+}
