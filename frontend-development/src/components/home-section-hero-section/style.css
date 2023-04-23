@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+.carousel__item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel {
+  /* height: 90vh; */
+  max-height: 90vh;
+}
+
+.carousel__item {
+  position: relative;
+}
+
+.carousel-title {
+  position: absolute;
+  top: 40%;
+  left: 15%;
+}
+
+.carousel-title h2 {
+  font-size: 5rem;
+  font-weight: 400;
+  font-family: "Great Vibes", cursive;
+}
+
+.carousel-title p {
+  font-size: 1.5rem;
+  margin-left: 10px;
+  color: #444;
+}
+
+.color h2 {
+  color: #fff;
+}
+
+.color p {
+  color: rgba(255, 255, 255, 0.781);
+}
+
+@media (max-width: 768px) {
+  .carousel-title h2 {
+    font-size: 2em;
+  }
+
+  .carousel-title p {
+    font-size: 1rem;
+  }
+}
